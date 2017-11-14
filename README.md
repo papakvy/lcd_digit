@@ -22,7 +22,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'lcd_digit'
+    
+    LcdDigit.render(number, size = 2) # size default: 2
+
+Example:
+
+```ruby
+      --   --        --   --   --   --   --   -- 
+   |    |    | |  | |    |       | |  | |  | |  |
+   |    |    | |  | |    |       | |  | |  | |  |
+      --   --   --   --   --        --   --      
+   | |       |    |    | |  |    | |  |    | |  |
+   | |       |    |    | |  |    | |  |    | |  |
+      --   --        --   --        --   --   -- 
+ => "Cheers :)"
+```
 
 ## Development
 
